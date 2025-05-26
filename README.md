@@ -1,4 +1,4 @@
-# 🔥 Firewall Rule Simulator
+# Firewall Rule Simulator
 
 A CLI tool to simulate and validate firewall rules and detect conflicts.
 
