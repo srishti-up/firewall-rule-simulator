@@ -1,0 +1,26 @@
+[
+  {
+    "rule_id": "R1",
+    "action": "allow",
+    "protocol": "tcp",
+    "src_ip": "192.168.1.10",
+    "dest_ip": "10.0.0.1",
+    "port": 22
+  },
+  {
+    "rule_id": "R2",
+    "action": "deny",
+    "protocol": "tcp",
+    "src_ip": "192.168.1.10",
+    "dest_ip": "10.0.0.1",
+    "port": 22
+  },
+  {
+    "rule_id": "R3",
+    "action": "allow",
+    "protocol": "udp",
+    "src_ip": "192.168.1.20",
+    "dest_ip": "10.0.0.5",
+    "port": 53
+  }
+]
